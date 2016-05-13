@@ -240,7 +240,8 @@ function create_config( )
     "locj_english",
     "lock_join",
     "lock_link",
-    "lock_tag"
+    "lock_tag",
+    "lock_media"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
