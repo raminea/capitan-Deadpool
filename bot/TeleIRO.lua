@@ -239,7 +239,8 @@ function create_config( )
     "lock_badw",
     "locj_english",
     "lock_join",
-    "lock_link"
+    "lock_link",
+    "lock_tag"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
