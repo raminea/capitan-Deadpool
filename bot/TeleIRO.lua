@@ -228,7 +228,8 @@ function create_config( )
     "sticker2photo",
     "calc",
     "chat",
-    "echo"
+    "echo",
+    "feedback"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
