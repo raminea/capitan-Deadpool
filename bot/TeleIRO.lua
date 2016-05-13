@@ -237,7 +237,8 @@ function create_config( )
     "info",
     "isup",
     "lock_badw",
-    "locj_english"
+    "locj_english",
+    "lock_join"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
