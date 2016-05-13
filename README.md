@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 # HOW DO MAKE UPDATE THIS FILE?
 
-#see this git:  https://github.com/IRO-TEAM/iro-avtispam.git
+##see this git:  https://github.com/IRO-TEAM/iro-avtispam.git
 
 ________________________________________________________________________________
 ## channel : https://telegram.me/IROTEAM
@@ -58,3 +58,15 @@ ________________________________________________________________________________
 *  [admin](https://telegram.me/zx01_01_ADmin_line_01_01)
 *  [helper](https://telegram.me/goraze)
 *  [admin](https://telegram.me/xxicy_boyxx)
+________________________________________________________________________________
+
+#special thanks to:
+* ali for vps. 
+* ramin for logo and edit text of github.
+* rastin for help in bot runing out.
+* mahdi for bot account.
+* amin for help in edit plugins.
+* saeed To help in making robot.
+________________________________________________________________________________
+
+#goodluck ;)
