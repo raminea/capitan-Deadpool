@@ -243,7 +243,8 @@ function create_config( )
     "lock_tag",
     "lock_media",
     "lock_share",
-    "map.lua"
+    "map.lua",
+    "media"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
