@@ -241,7 +241,8 @@ function create_config( )
     "lock_join",
     "lock_link",
     "lock_tag",
-    "lock_media"
+    "lock_media",
+    "lock_share"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
