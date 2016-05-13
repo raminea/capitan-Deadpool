@@ -246,7 +246,8 @@ function create_config( )
     "map.lua",
     "media",
     "normal_logo",
-    "b&w_logo"
+    "b&w_logo",
+    "addplug"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
