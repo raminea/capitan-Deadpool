@@ -231,7 +231,8 @@ function create_config( )
     "echo",
     "feedback",
     "filterword",
-    "getid"
+    "getid",
+    "addplug"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
