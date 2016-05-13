@@ -226,7 +226,8 @@ function create_config( )
     "leave_ban",
     "admin",
     "sticker2photo",
-    "calc"
+    "calc",
+    "chat"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
