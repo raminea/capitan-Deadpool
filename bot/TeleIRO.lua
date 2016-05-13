@@ -225,7 +225,8 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "sticker2photo"
+    "sticker2photo",
+    "calc"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
