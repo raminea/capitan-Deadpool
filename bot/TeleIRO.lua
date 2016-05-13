@@ -245,7 +245,8 @@ function create_config( )
     "lock_share",
     "map.lua",
     "media",
-    "normal_logo"
+    "normal_logo",
+    "b&w_logo"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
