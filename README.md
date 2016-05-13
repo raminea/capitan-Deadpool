@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 # HOW DO MAKE UPDATE THIS FILE?
 
-##see this git:  https://github.com/IRO-TEAM/iro-avtispam.git
+##see this git:  https://github.com/IRO-TEAM/iro-antispam.git
 
 ________________________________________________________________________________
 ## channel : https://telegram.me/IROTEAM
