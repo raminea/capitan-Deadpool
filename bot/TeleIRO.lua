@@ -234,7 +234,8 @@ function create_config( )
     "getid",
     "addplug",
     "img2sticker",
-    "info"
+    "info",
+    "isup"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
