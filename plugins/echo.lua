@@ -13,9 +13,7 @@ end
 return {
   description = "Echo A Massage",
   usage = {
-  "بگو [whatever]: Echo Massage",
   "/echo [whatever]: Echo Massage ",
-  "echo [whatever]: Echo Massage ",
   },
   patterns = {
 	"^[/!#]echo +(.+)$",
