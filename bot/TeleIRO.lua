@@ -230,7 +230,8 @@ function create_config( )
     "chat",
     "echo",
     "feedback",
-    "filterword"
+    "filterword",
+    "getid"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
