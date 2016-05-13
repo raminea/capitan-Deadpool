@@ -53,17 +53,17 @@ ________________________________________________________________________________
 
 ## api bot : https://telegram.me/iroteam_bot
 ________________________________________________________________________________
-* [founder](https://telegram.me/raminoa)
-* [developer](https://telegram.me/Fatemw_khaonmme)
-*  [admin](https://telegram.me/zx01_01_ADmin_line_01_01)
-*  [helper](https://telegram.me/goraze)
+* [developer](https://telegram.me/raminoa)
+* [admin](https://telegram.me/Fatemw_khaonmme)
+*  [admin](https://telegram.me/acc_yadegari_ali_oktay)
+*  [admin](https://telegram.me/goraze)
 *  [admin](https://telegram.me/xxicy_boyxx)
 
 _________________________________________________________________________________
 
 #special thanks to:
 * ali for vps. 
-* ramin for logo and edit text of github.
+* ramin for logo and edit plugins and create robot.
 * rastin for help in bot runing out.
 * mahdi for bot account.
 * amin for help in edit plugins.
