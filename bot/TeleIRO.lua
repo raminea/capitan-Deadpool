@@ -232,7 +232,8 @@ function create_config( )
     "feedback",
     "filterword",
     "getid",
-    "addplug"
+    "addplug",
+    "img2sticker"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
