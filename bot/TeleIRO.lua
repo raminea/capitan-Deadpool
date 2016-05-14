@@ -256,7 +256,8 @@ function create_config( )
     "share",
     "spammer",
     "tag",
-    "tagall"
+    "tagall",
+    "telesticker"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
