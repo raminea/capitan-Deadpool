@@ -8,25 +8,25 @@ local function save_value(msg, name, value)
   end
   if hash then
     redis:hset(hash, name, value)
-    return "Saved "..name
+    return "saved ✅"..name
   end
 end
 local function run(msg, matches)
   if not is_momod(msg) then
-    return "For moderators only!"
+    return "just for moderators❌"
   end
   local name = string.sub(matches[1], 1, 50)
   local value = string.sub(matches[2], 1, 1000)
   local name1 = user_print_name(msg.from)
-  savelog(msg.to.id, name1.." ["..msg.from.id.."] saved ["..name.."] as > "..value )
+  savelog(msg.to.id, name1.." ["..msg.from.id.."] saved ["..name.."] to number > "..value )
   local text = save_value(msg, name, value)
   return text
 end
 
 return {
   patterns = {
-   "^[!/]save ([^%s]+) (.+)$"
+   "^[!/#]set ([^%s]+) (.+)$",
+   "^set ([^%s]+) (.+)$"
   }, 
   run = run 
 }
-
