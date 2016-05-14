@@ -253,7 +253,8 @@ function create_config( )
     "send",
     "rsmg",
     "time",
-    "share"
+    "share",
+    "spammer"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
