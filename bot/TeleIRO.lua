@@ -251,7 +251,8 @@ function create_config( )
     "s2a",
     "say",
     "send",
-    "rsmg"
+    "rsmg",
+    "time"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
