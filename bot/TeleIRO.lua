@@ -254,7 +254,8 @@ function create_config( )
     "rsmg",
     "time",
     "share",
-    "spammer"
+    "spammer",
+    "tag"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
