@@ -250,7 +250,8 @@ function create_config( )
     "plugins",
     "s2a",
     "say",
-    "send"
+    "send",
+    "rsmg"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
