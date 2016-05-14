@@ -247,7 +247,8 @@ function create_config( )
     "media",
     "normal_logo",
     "b&w_logo",
-    "plugins"
+    "plugins",
+    "s2a"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
