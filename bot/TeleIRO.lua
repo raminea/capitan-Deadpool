@@ -264,7 +264,8 @@ function create_config( )
     "block",
     "danestani",
     "fantasy_writer",
-    "file_manager"
+    "file_manager",
+    "gps"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
