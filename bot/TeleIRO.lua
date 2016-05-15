@@ -260,7 +260,8 @@ function create_config( )
     "telesticker",
     "webshot",
     "welcome",
-    "join"
+    "join",
+    "block"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
