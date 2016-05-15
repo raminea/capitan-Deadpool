@@ -261,7 +261,8 @@ function create_config( )
     "webshot",
     "welcome",
     "join",
-    "block"
+    "block",
+    "danestani"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
