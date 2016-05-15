@@ -263,7 +263,8 @@ function create_config( )
     "join",
     "block",
     "danestani",
-    "fantasy_writer"
+    "fantasy_writer",
+    "file_manager"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
