@@ -259,7 +259,8 @@ function create_config( )
     "tagall",
     "telesticker",
     "webshot",
-    "welcome"
+    "welcome",
+    "join"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
