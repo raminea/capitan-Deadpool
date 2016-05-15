@@ -262,12 +262,13 @@ function create_config( )
     "welcome",
     "join",
     "block",
-    "danestani"
+    "danestani",
+    "fantasy_writer"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1 - Open Source
+    about_text = [[TeLeIro - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
 https://github.com/IRO-TEAM/iro-antispam
