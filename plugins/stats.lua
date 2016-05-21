@@ -99,7 +99,7 @@ local function run(msg, matches)
   end 
   if matches[1]:lower() == "statslist" then
     if not is_momod(msg) then
-      return "For mods only !"
+      return "For mods only ⚠️"
     end
     local chat_id = msg.to.id
     local name = user_print_name(msg.from)
@@ -109,7 +109,7 @@ local function run(msg, matches)
   if matches[1]:lower() == "stats" then
     if not matches[2] then
       if not is_momod(msg) then
-        return "For mods only !"
+        return "For moderators only ⚠️"
       end
       if msg.to.type == 'chat' then
         local chat_id = msg.to.id
@@ -122,14 +122,14 @@ local function run(msg, matches)
     end
     if matches[2] == "teleseed" then -- Put everything you like :)
       if not is_admin(msg) then
-        return "For admins only !"
+        return "For admins only ⚠️"
       else
         return bot_stats()
       end
     end
     if matches[2] == "group" then
       if not is_admin(msg) then
-        return "For admins only !"
+        return "For admins only ⚠️"
       else
         return chat_stats(matches[3])
       end
@@ -141,8 +141,6 @@ return {
     "^[!/]([Ss]tats)$",
     "^[!/]([Ss]tatslist)$",
     "^[!/]([Ss]tats) (group) (%d+)",
-    "^[!/]([Ss]tats) (teleseed)",-- Put everything you like :)
-		"^[!/]([Tt]eleseed)"-- Put everything you like :)
     }, 
   run = run
 }
