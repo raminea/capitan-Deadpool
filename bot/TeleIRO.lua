@@ -267,7 +267,8 @@ function create_config( )
     "file_manager",
     "gps",
     "group_users",
-    "del_msg"
+    "del_msg",
+    "CpdTeam"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
