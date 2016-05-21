@@ -19,9 +19,7 @@ Based on TeleSeed☘
 _________________________
 CPD Api Bot: @CPD_ROBOT 👾
 _________________________
-CPD= Capitan DeadPool ⚔
-_________________________
-github addres: https://github.com/raminea/Capitan/DeadPool 🇮🇷
+github addres: https://github.com/raminea/Capitan-DeadPool 🇮🇷
 _________________________
 Bot Launguage: English 🔠
 _________________________
