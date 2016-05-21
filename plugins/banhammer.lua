@@ -203,7 +203,7 @@ local function run(msg, matches)
         	redis:srem(hash, user_id)
         	local name = user_print_name(msg.from)
         	savelog(msg.to.id, name.." ["..msg.from.id.."] unbaned user ".. matches[2])
-        	return 'User '..user_id..' unbanned'
+        	return 'User '..user_id..' unbanned✅'
       else
 		local cbres_extra = {
 			chat_id = msg.to.id,
@@ -269,7 +269,7 @@ end
          	return false 
         end
         	banall_user(targetuser)
-       		return 'User ['..user_id..' ] globally banned'
+       		return 'User ['..user_id..' ] globally banned✅'
       else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -289,7 +289,7 @@ end
           	return false 
         end
        		unbanall_user(user_id)
-        	return 'User ['..user_id..' ] removed from global ban list'
+        	return 'User ['..user_id..' ] removed from global ban list✅'
       else
 	local cbres_extra = {
 		chat_id = msg.to.id,
