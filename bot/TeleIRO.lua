@@ -271,47 +271,23 @@ function create_config( )
     sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeLeIro - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[DeadPoolBot v1 - Open Source
+An advance Administration bot based on TeleSeed
 
-https://github.com/IRO-TEAM/iro-antispam
+https://github.com/raminea/capitan-daedpool
 
-Our team!
-Ramin(@raminoa)
-Amin(@xxicy_boy)
-Ali(@Ali_oktay)
-Mahdi(@fatemw_khanomme)
+developer:
+@raminea
 
 Special thanks to:
 Saeed
 Rastin
 
-Our channel:
-@iroteam
+
 
 ]],
     help_text_realm = [[
-🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸
-realm commands:
-💭🔰 /creategroup [name] : ساختن گروه جدید
-💭🔰 /createrealm [name] : ساختن ریلم جدید
-💭🔰 /setname [name] : عوض  کردن عکس گروه 
-💭🔰 /setabot [group_id] [text] : درباره ی گروه مورد نظر
-💭🔰 /setrules [text] : قوانین گروه مورد نظر
-💭🔰 /lock [group_id] [setting] : قفل کردن یکی از تنظیمات گروه
-💭🔰 /unlock [group_id] [setting] : ازاد کردن یکی از تنظیمات گروه
-💭🔰 /wholist : لیست ممبر های ریلم یا گروه
-💭🔰 /who : لیست ممبر های گروه به صورت فایل
-💭🔰 /type : نوع گروه
-💭🔰 /kill chat [group_id] : حذف همه ی ممبر ها و حذف گروه
-💭🔰 /kill realm [realm_id] : حذف همه ی ممبر ها و حذف ریلم
-💭🔰 /addadmin [id_username] : افزودن ادمین 
-💭🔰 /removeadmin [id_username] : حذف از ادمین
-💭🔰 /list groups :  لیست گروه های ربات
-💭🔰 /list realm : لیست ریلم های موجود
-💭🔰 /broadcast [text] : فرستادن پیام به همه ی گروه های ربات
-💭🔰 /bc [group_id] :  فرستادن پیام به گروه مورد نظر
-🔹🔸🔹🔸🔹🔸🔹🔸🔹🔸
+
 ]],
     help_text = [[
 
