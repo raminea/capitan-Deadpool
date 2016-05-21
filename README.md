@@ -14,7 +14,7 @@ cd $HOME
 
 git clone https://github.com/raminea/capitan-deadpool
 
-cd iro-antispam
+cd capitan-deadpool
 
 chmod +x launch.sh
 
