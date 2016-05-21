@@ -268,7 +268,8 @@ function create_config( )
     "gps",
     "group_users",
     "del_msg",
-    "CpdTeam"
+    "CpdTeam",
+    "jomlak"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
