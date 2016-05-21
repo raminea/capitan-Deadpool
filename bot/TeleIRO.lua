@@ -266,7 +266,8 @@ function create_config( )
     "fantasy_writer",
     "file_manager",
     "gps",
-    "group_users"
+    "group_users",
+    "del_msg"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
@@ -281,7 +282,7 @@ developer:
 
 Special thanks to:
 Saeed
-Rastin
+Amin
 
 
 
