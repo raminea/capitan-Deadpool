@@ -1,4 +1,4 @@
-# [TeleIRO](https://telegram.me/teleiro) Is New And Best Bot.
+# [DeadPool Bot](https://telegram.me/Tele_DeadPool) Is New And Best Bot.
 
 ## Based On TeleSeed.
 _________________________________________________________________________________
@@ -49,23 +49,15 @@ ________________________________________________________________________________
 ##see this git:  https://github.com/IRO-TEAM/iro-antispam.git
 
 ________________________________________________________________________________
-## channel : https://telegram.me/IROTEAM
 
-## api bot : https://telegram.me/iroteam_bot
+## api bot : https://telegram.me/DeadPool_HelperBot
 ________________________________________________________________________________
-* [developer](https://telegram.me/raminoa)
-* [admin](https://telegram.me/Fatemw_khaonmme)
-*  [admin](https://telegram.me/acc_yadegari_ali_oktay)
-*  [admin](https://telegram.me/goraze)
-*  [admin](https://telegram.me/xxicy_boyxx)
+## [Developer & Founder](https://telegram.me/raminea)
 
 _________________________________________________________________________________
 
 #special thanks to:
-* ali for vps. 
-* ramin for logo and edit plugins and create robot.
 * rastin for help in bot runing out.
-* mahdi for bot account.
 * amin for help in edit plugins.
 * saeed To help in making robot.
 
