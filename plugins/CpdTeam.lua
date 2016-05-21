@@ -11,7 +11,7 @@ _________________________
 Sudo ID:195092846
 Bot ID:212899738
 _________________________
-⚜Team Members: Amin,Ramin,Sepehr 💯
+⚜Team Members: Amin,Ramin💯
 _________________________
 CPD Team PV bot: @CPD_PV_bot 🏈
 _________________________
