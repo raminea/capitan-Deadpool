@@ -12,7 +12,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 cd $HOME
 
-git clone https://github.com/IRO-TEAM/iro-antispam.git
+git clone https://github.com/raminea/capitan-deadpool
 
 cd iro-antispam
 
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 # HOW DO MAKE UPDATE THIS FILE?
 
-##see this git:  https://github.com/IRO-TEAM/iro-antispam.git
+##see this git:  https://github.com/raminea/capitan-deadpool
 
 ________________________________________________________________________________
 
