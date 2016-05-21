@@ -13,6 +13,8 @@ Bot ID:212899738
 _________________________
 ⚜Team Members: Amin,Ramin 💯
 _________________________
+CPD Team PV bot: @CPD_PV_bot 🏈
+_________________________
 Based on TeleSeed☘
 _________________________
 CPD Api Bot: @CPD_ROBOT 👾
