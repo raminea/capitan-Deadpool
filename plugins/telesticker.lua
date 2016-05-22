@@ -6,8 +6,7 @@ end
 
 return {
 patterns = {
-"^[Ss][Bb][Ss][Ss]$",
-"^[!/]([Ii][Rr][Oo]$",
+"^[/#!]([Cc][Pp][Dd])",
 
 },
 run = run
