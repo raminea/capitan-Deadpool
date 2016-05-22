@@ -269,7 +269,8 @@ function create_config( )
     "del_msg",
     "CpdTeam",
     "jomlak",
-    "joke"
+    "joke",
+    "robot"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
@@ -277,7 +278,7 @@ function create_config( )
     about_text = [[DeadPoolBot v1 - Open Source
 An advance Administration bot based on TeleSeed
 
-https://github.com/raminea/capitan-daedpool
+https://github.com/raminea/capitan-deadpool
 
 developer:
 @raminea
