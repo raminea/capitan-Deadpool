@@ -271,7 +271,9 @@ function create_config( )
     "jomlak",
     "joke",
     "robot",
-    "plugins"
+    "plugins",
+    "weather"
+    
     },
     sudo_users = {195092846,153545455,104583328},--Sudo users
     disabled_channels = {},
