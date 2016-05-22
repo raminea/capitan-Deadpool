@@ -270,7 +270,8 @@ function create_config( )
     "CpdTeam",
     "jomlak",
     "joke",
-    "robot"
+    "robot",
+    "plugins"
     },
     sudo_users = {195092846,153545455,104583328},--Sudo users
     disabled_channels = {},
