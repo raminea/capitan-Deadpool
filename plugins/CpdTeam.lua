@@ -3,7 +3,7 @@ do
 
 function run(msg, matches)
   return [[ 
-Capitan Deadpool version 1.0.0 🚀
+CPD version 1.0.0 🚀
 _________________________
 Sudo User: @Raminea 👔👑
 Bot User: @cpd_bot 🤖
@@ -11,7 +11,7 @@ _________________________
 Sudo ID:195092846
 Bot ID:212899738
 _________________________
-⚜Team Members: Amin,Ramin💯
+⚜Team Members: Amin,Ramin,Mamad💯
 _________________________
 CPD Team PV bot: @CPD_PV_bot 🏈
 _________________________
