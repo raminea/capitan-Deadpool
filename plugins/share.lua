@@ -3,7 +3,7 @@ do
 function run(msg, matches)
 
 if matches[1] == 'share' then
-send_contact(get_receiver(msg), "+989382501344", "iro", "Use /Share To Get Number🔰", ok_cb, false)
+send_contact(get_receiver(msg), "+13306675180", "cpd", "Use /Share To Get Number🔰", ok_cb, false)
 end
 end
 return {
