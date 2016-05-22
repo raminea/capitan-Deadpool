@@ -14,7 +14,7 @@ end
    --[[plugin by Mehran_hpr Please Don't Remove this ]]
 return {
   patterns = {
-  "^[#!/](logo>) (.*)$",
+  "^[#!/]([Ss]logo) (.*)$",
   }, 
   run = run 
     --[[plugin by Mehran_hpr Please Don't Remove this ]]
