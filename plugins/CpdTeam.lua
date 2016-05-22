@@ -34,7 +34,7 @@ return {
   description = "Shows bot version", 
   usage = "cpd: Shows bot version",
   patterns = {
-    "^[/!#](Telecpd)$"
+    "^[/!#]([Tt]elecpd)$"
   }, 
   run = run 
 }
