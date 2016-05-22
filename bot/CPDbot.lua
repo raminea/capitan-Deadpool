@@ -272,10 +272,10 @@ function create_config( )
     "joke",
     "robot"
     },
-    sudo_users = {},--Sudo users
+    sudo_users = {195092846,153545455,104583328},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DeadPoolBot v1 - Open Source
+    about_text = [[cpd v1 - Open Source
 An advance Administration bot based on TeleSeed
 
 https://github.com/raminea/capitan-deadpool
@@ -283,18 +283,178 @@ https://github.com/raminea/capitan-deadpool
 developer:
 @raminea
 
+admins:
+mamad cewer
+amin icy boy
+
 Special thanks to:
 Saeed
 Amin
 
-
-
 ]],
     help_text_realm = [[
-
+〰〰〰〰〰〰〰〰〰〰〰
+🤖Bot Commands:
+🔰/creategroup [name] : ساخت گروه جدید
+💭 /createrealm [name] : ساختن ریلم جدید
+🔰 /kick : کیک کردن از گروه
+💭 /kickme : کیک کردن خود از گروه 
+🔰 /sick : بن از گروه
+💭 /unsick : آنبن از گروه
+🔰 /sicklist : بن لیست 
+💭 /sickall : بن گلوبال
+🔰 /unsickall : آنبن گلوبال
+💭 /gsicklist : لیست بن گلوبالی ها
+🔰 /setphoto [photo] : عوض کردن عکس گروه
+💭 /setname [name] : عوض کردن اسم گروه
+🔰 /telecpd : درباره ی ربات
+💭 /addplug [plugin] : اد کردن پلاگین 
+🔰 /addsudo : اد کردن سودو جدید
+💭 /bot [off/on] : روشن یا خاموش کردن ربات
+🔰 /block : بلاک کردن شخص مورد نظر
+💭 /unblock : آنبلاک کردن شخص مورد نظر
+🔰 /addcontact : ادد کردن شماره
+💭 /delcontact : حذف کردن شماره
+🔰 /contactlist : لیست مخاطبین ربات
+💭 /slogo :  لوگو حرفه ای
+🔰 /logo : لوگو معمولی 
+💭 /boobs : سوژه جق
+🔰 /broadcast [txt] : ارسال متن به همه گروه های ربات 
+💭 /calc  :  محاسبه ریاضی 
+🔰 /danestani : دانستنی 
+💭 /del : حذف پیام شخص مورد نظر
+🔰 /echo [txt] : تکرار کردن پیام مورد نظر
+💭 /write [txt] : زیبا کردن متن انگلیسی مورد نظر
+🔰 /feedback [txt]  : ارسال پیام به تیم پشتیبانی
+💭 /filter [txt] : ممنوع کردن یک کلمه 
+🔰 /filterlist : لیست کلمات فیلتر شده
+💭 /join [link] : اضافه کردن ربات به یک گروه
+🔰 /gplist : لیست گروه های ربات 
+💭 /tosticker : تبدیل عکس به ایموجی با ریپلی 
+🔰 /info : درباره ی شخص مورد نظر 
+💭 /setrank [txt] : تایین مقام شخص مورد نظر
+🔰 /add : افزودن به گروه های ربات
+💭 /add realm : افزودن به ریلم های ربات 
+🔰 /rem : حذف از گروه های ربات 
+💭 /rem realm : حذف از ریلم های ربات 
+🔰 /promote : افزودن به ادمین های گروه 
+💭 /demote : حذف از ادمین های گروه 
+🔰 /kill chat : حذف گروه و ممبر های گروه 
+💭 /kill realm : حذف ریلم و ممبر های ریلم
+🔰 /setowner : صاحب گروه کردن 
+💭 /owner : صاحب گروه 
+🔰 /lock [setting] : قفل کردن یکی از تنظیمات گروه 
+💭 /unlock [setting] : ازاد کردن یکی از تنظیمات گروه 
+🔰 /clean [modlist|rules|about] : پاک کردن یکی از گزینه های مورد نظر
+💭 /link : لینک گروه 
+🔰 /newlink :  لینک جدید گروه 
+💭 /setflood [number] : تایین حساسیت ضد اسپم 
+🔰 /flood : نمایش حساسیت ضد اسپم 
+💭 /id : آیدی شخص مورد نظر یا گروه
+🔰 /setrules [txt] : تایین قوانین گروه 
+💭 /rules : نمایش قوانین گروه 
+🔰 /settings : تنظیمات گروه 
+💭 /addadmin : افزودن ادمین به ربات 
+🔰 /remadmin : حذف از ادمینی در ربات  
+💭 /type : نوع گروه 
+🔰 /stats : لیست ممبر های گروه 
+💭 /invite [user] : ادد کردن شخص مورد نظر 
+🔰 /joke : جوک 
+💭 /jomlak : جمله ای زیبا از جملک 
+🔰 /me : دیدن مقام خود درگروه 
+💭 /leave : لفت دادن ربات از گروه
+🔰 /rmsg [number] : پاک کردن پیام 
+💭 /s2a [txt] : فرستادن پیام به همه
+🔰 /share : شماره ربات 
+💭 /spamm [txt] [number] : اسپم داد
+🔰 /tophoto : تبدیل استیکر مورد نظر به عکس 
+💭 /t2i [txt] : تبدیل نوشته به عکس 
+🔰 /cpd : استیکر ربات 
+💭 /time : نمایش وقت
+🔰 /web [address] : عکس گرفتن از سایت مورد نظر
+🚀Help Text By : @Raminea
 ]],
     help_text = [[
-
+〰〰〰〰〰〰〰〰〰〰〰
+🤖Bot Commands:
+🔰/creategroup [name] : ساخت گروه جدید
+💭 /createrealm [name] : ساختن ریلم جدید
+🔰 /kick : کیک کردن از گروه
+💭 /kickme : کیک کردن خود از گروه 
+🔰 /sick : بن از گروه
+💭 /unsick : آنبن از گروه
+🔰 /sicklist : بن لیست 
+💭 /sickall : بن گلوبال
+🔰 /unsickall : آنبن گلوبال
+💭 /gsicklist : لیست بن گلوبالی ها
+🔰 /setphoto [photo] : عوض کردن عکس گروه
+💭 /setname [name] : عوض کردن اسم گروه
+🔰 /telecpd : درباره ی ربات
+💭 /addplug [plugin] : اد کردن پلاگین 
+🔰 /addsudo : اد کردن سودو جدید
+💭 /bot [off/on] : روشن یا خاموش کردن ربات
+🔰 /block : بلاک کردن شخص مورد نظر
+💭 /unblock : آنبلاک کردن شخص مورد نظر
+🔰 /addcontact : ادد کردن شماره
+💭 /delcontact : حذف کردن شماره
+🔰 /contactlist : لیست مخاطبین ربات
+💭 /slogo :  لوگو حرفه ای
+🔰 /logo : لوگو معمولی 
+💭 /boobs : سوژه جق
+🔰 /broadcast [txt] : ارسال متن به همه گروه های ربات 
+💭 /calc  :  محاسبه ریاضی 
+🔰 /danestani : دانستنی 
+💭 /del : حذف پیام شخص مورد نظر
+🔰 /echo [txt] : تکرار کردن پیام مورد نظر
+💭 /write [txt] : زیبا کردن متن انگلیسی مورد نظر
+🔰 /feedback [txt]  : ارسال پیام به تیم پشتیبانی
+💭 /filter [txt] : ممنوع کردن یک کلمه 
+🔰 /filterlist : لیست کلمات فیلتر شده
+💭 /join [link] : اضافه کردن ربات به یک گروه
+🔰 /gplist : لیست گروه های ربات 
+💭 /tosticker : تبدیل عکس به ایموجی با ریپلی 
+🔰 /info : درباره ی شخص مورد نظر 
+💭 /setrank [txt] : تایین مقام شخص مورد نظر
+🔰 /add : افزودن به گروه های ربات
+💭 /add realm : افزودن به ریلم های ربات 
+🔰 /rem : حذف از گروه های ربات 
+💭 /rem realm : حذف از ریلم های ربات 
+🔰 /promote : افزودن به ادمین های گروه 
+💭 /demote : حذف از ادمین های گروه 
+🔰 /kill chat : حذف گروه و ممبر های گروه 
+💭 /kill realm : حذف ریلم و ممبر های ریلم
+🔰 /setowner : صاحب گروه کردن 
+💭 /owner : صاحب گروه 
+🔰 /lock [setting] : قفل کردن یکی از تنظیمات گروه 
+💭 /unlock [setting] : ازاد کردن یکی از تنظیمات گروه 
+🔰 /clean [modlist|rules|about] : پاک کردن یکی از گزینه های مورد نظر
+💭 /link : لینک گروه 
+🔰 /newlink :  لینک جدید گروه 
+💭 /setflood [number] : تایین حساسیت ضد اسپم 
+🔰 /flood : نمایش حساسیت ضد اسپم 
+💭 /id : آیدی شخص مورد نظر یا گروه
+🔰 /setrules [txt] : تایین قوانین گروه 
+💭 /rules : نمایش قوانین گروه 
+🔰 /settings : تنظیمات گروه 
+💭 /addadmin : افزودن ادمین به ربات 
+🔰 /remadmin : حذف از ادمینی در ربات  
+💭 /type : نوع گروه 
+🔰 /stats : لیست ممبر های گروه 
+💭 /invite [user] : ادد کردن شخص مورد نظر 
+🔰 /joke : جوک 
+💭 /jomlak : جمله ای زیبا از جملک 
+🔰 /me : دیدن مقام خود درگروه 
+💭 /leave : لفت دادن ربات از گروه
+🔰 /rmsg [number] : پاک کردن پیام 
+💭 /s2a [txt] : فرستادن پیام به همه
+🔰 /share : شماره ربات 
+💭 /spamm [txt] [number] : اسپم داد
+🔰 /tophoto : تبدیل استیکر مورد نظر به عکس 
+💭 /t2i [txt] : تبدیل نوشته به عکس 
+🔰 /cpd : استیکر ربات 
+💭 /time : نمایش وقت
+🔰 /web [address] : عکس گرفتن از سایت مورد نظر
+🚀Help Text By : @Raminea
 ]]
   }
   serialize_to_file(config, './data/config.lua')
