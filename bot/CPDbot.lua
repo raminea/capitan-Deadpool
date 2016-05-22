@@ -268,7 +268,8 @@ function create_config( )
     "group_users",
     "del_msg",
     "CpdTeam",
-    "jomlak"
+    "jomlak",
+    "joke"
     },
     sudo_users = {},--Sudo users
     disabled_channels = {},
